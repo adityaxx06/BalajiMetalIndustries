@@ -238,68 +238,7 @@
     </div>
   </section>
 
-  <!-- Customer-  Swiper -->
-  <section class="client-slider section__container">
-    <h2 class="section__header">Our Clients</h2>
-    <div class="swiper clients-swiper">
-      <div class="swiper-wrapper">
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-1.jpg" alt="4Mann Group">
-            <p>4Mann Group</p>
-          </div>
-        </div>
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-2.jpg" alt="Sajjan Group">
-            <p>Sajjan Group</p>
-          </div>
-        </div>
 
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-3.jpg" alt="Rocktech">
-            <p>Rocktech Eng.</p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-4.jpg" alt="Jayaswal Neco">
-            <p>Jayaswal Neco.</p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-5.jpg" alt="German Txt">
-            <p>German TMX</p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-6.jpg" alt="Hero Cycle">
-            <p>Hero Cycle</p>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="client-card">
-            <img src="assets/customer/c-7.jpg" alt="Mangal Sponge">
-            <p>Mangal Sponge</p>
-          </div>
-        </div>
-        <!-- Add more slides as needed -->
-      </div>
-      <!-- Scoped controls INSIDE this swiper to avoid clashes -->
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-  </section>
 
 <!-- Contact detail -->
     <!-- <section class="section-container">
@@ -357,34 +296,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="main.js"></script>
 
-  <!-- swiper js-code -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const swiper = new Swiper('.clients-swiper', {
-        slidesPerView: 2,
-        spaceBetween: 16,
-        loop: true,
-        autoplay: { delay: 2000, disableOnInteraction: false },
-        pagination: {
-          el: '.clients-swiper .swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.clients-swiper .swiper-button-next',
-          prevEl: '.clients-swiper .swiper-button-prev',
-        },
-        breakpoints: {
-          640: { slidesPerView: 3, spaceBetween: 20 },
-          1024: { slidesPerView: 5, spaceBetween: 24 },
-        },
-      });
-    });
-
-    ScrollReveal().reveal('.card', { interval: 200, origin: 'bottom', distance: '50px', duration: 800 });
-ScrollReveal().reveal('.hero-content', { delay: 300, origin: 'top', distance: '40px', duration: 1000 });
-
-  </script>
-
+  
 </body>
 
 </html>
