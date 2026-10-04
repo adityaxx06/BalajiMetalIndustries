@@ -1,302 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!---Links------- -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-  <link rel="stylesheet" href="stylenew.css" />
-  <link rel="shortcut icon" href="assets/bmi-logo.png" type="image/x-icon">
+  <!-- ===== SEO ===== -->
+  <title>Balaji Metal Industries | Precision Metal Solutions for Demanding Industries</title>
+  <meta name="description" content="Balaji Metal Industries (Bilaspur, Chhattisgarh) manufactures spring steel screen cloths, stainless steel wire mesh, conveyor idlers, frames & pulleys, kiln refractory anchors and casting components for sponge iron, cement, power and mining plants." />
+  <link rel="canonical" href="https://www.balajimetal.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a1120" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/favicon-180.png" />
 
-  <!-- Basic SEO -->
-  <title>Balaji Metal Industries | SS Wire Mesh, Conveyor Rollers & Industrial Products</title>
-  <meta name="description" content="Balaji Metal Industries is a leading manufacturer and supplier of SS Wire Mesh, Conveyor Idlers & Rollers, SS Anchor Klin, Casting & Mechanical Items. High-quality industrial products with trusted service.">
-  <meta name="keywords" content="Balaji Metal Industries, SS Wire Mesh, Conveyor Rollers, SS Anchor Klin, Casting, Mechanical Items, Industrial Products India">
-  <meta name="robots" content="index, follow">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Balaji Metal Industries" />
+  <meta property="og:title" content="Balaji Metal Industries | Precision Metal Solutions for Demanding Industries" />
+  <meta property="og:description" content="Spring steel screens, SS wire mesh, conveyor idlers, refractory anchors and cast components — built for sponge iron, cement, power and mining plants." />
+  <meta property="og:url" content="https://www.balajimetal.com/" />
+  <meta property="og:image" content="https://www.balajimetal.com/assets/header.jpg" />
 
-  <!-- Open Graph (Facebook/LinkedIn Sharing) -->
-  <meta property="og:title" content="Balaji Metal Industries - Industrial Products Manufacturer">
-  <meta property="og:description" content="Leading manufacturer of SS Wire Mesh, Conveyor Rollers, SS Anchor Klin, Casting & Mechanical Items. Trusted by industries across India.">
-  <meta property="og:image" content="https://balajimetalindustries.vercel.app/assets/bmi-logo.png">
-  <meta property="og:url" content="https://balajimetalindustries.com">
-  <meta property="og:type" content="website">
+  <!-- ===== Fonts (display swap, preconnected) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Balaji Metal Industries">
-  <meta name="twitter:description" content="High-quality SS Wire Mesh, Conveyor Rollers & Industrial Products.">
-  <meta name="twitter:image" content="https://balajimetalindustries.vercel.app/assets/bmi-logo.png">
-    <script src="https://unpkg.com/scrollreveal"></script>
-  <!-- Structured Data (Schema for Organization) -->
+  <!-- ===== Styles ===== -->
+  <link rel="stylesheet" href="css/design-system.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+
+  <!-- ===== Structured data (verified company facts only) ===== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Balaji Metal Industries",
-    "url": "https://balajimetalindustries.vercel.app",
-    "logo": "https://balajimetalindustries.vercel.app/assets/bmi-logo.png",
-    "description": "Manufacturer of SS Wire Mesh, Conveyor Idlers & Rollers, SS Anchor Klin, Casting & Mechanical Items.",
+    "url": "https://www.balajimetal.com/",
+    "email": "balajimetal09@gmail.com",
+    "telephone": "+91-70009683009",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "26-A Industrial Area Tifra",
+      "streetAddress": "26-A Industrial Area, Tifra",
       "addressLocality": "Bilaspur",
       "addressRegion": "Chhattisgarh",
       "postalCode": "495223",
-      "addressCountry": "India"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+91-9827930382",
-      "contactType": "Customer Support",
-      "areaServed": "IN",
-      "availableLanguage": "en"
+      "addressCountry": "IN"
     }
   }
   </script>
-
 </head>
+
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <!------Navbar------->
-  <nav>
-    <div class="nav__header">
-      <div class="nav__logo">
-        <img src="assets/bmi-logo.png" class="logo" alt="logo">
+  <!-- ================= TOPBAR ================= -->
+  <div class="topbar">
+    <div class="container container--wide topbar__inner">
+      <div class="topbar__group">
+        <span class="topbar__item"><span class="topbar__dot" aria-hidden="true"></span>Bilaspur · Chhattisgarh · India</span>
       </div>
-      <div class="nav__menu__btn" id="menu-btn">
-        <i class="ri-menu-line"></i>
+      <div class="topbar__group topbar__group--right">
+        <a class="topbar__item" href="tel:+9170009683009">+91 70009 68309</a>
+        <a class="topbar__item" href="mailto:balajimetal09@gmail.com">balajimetal09@gmail.com</a>
       </div>
     </div>
-    <ul class="nav__links" id="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="index.html#product">Products</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  </div>
 
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" data-navbar>
+    <div class="container container--wide navbar__inner">
+      <a class="brand" href="index.html" aria-label="Balaji Metal Industries — home">
+        <span class="brand__mark" aria-hidden="true"><img src="assets/bmi-logo-square.png" alt="" width="40" height="40" onerror="this.outerHTML='B'" /></span>
+        <span class="brand__text">
+          <span class="brand__name">Balaji Metal Industries</span>
+          <span class="brand__sub">Engineered for Industry</span>
+        </span>
+      </a>
 
-<!-- Hero section -->
-  <header class="section__container header__container" id="home">
-    <div class="header__image ">
-      <img src="assets/header.jpg" class="hero-img fadeIn" alt="header" />
-    </div>
-    <div class="header__content fadeIn">
-      <div>
-        <h1>Welcome to Balaji Metal Industries</h1>
-        <p>
-          We are proud to introduce ourselves as one of the leading
-          manufacturers and suppliers of industrial components, serving
-          major sectors such as sponge iron, cement, and power plants across
-          India
-        </p>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html" data-nav-link>About</a>
+        <a href="products/" data-nav-link>Products</a>
+        <a href="#industries" data-nav-link>Industries</a>
+        <a href="#manufacturing" data-nav-link>Manufacturing</a>
+        <a href="#quality" data-nav-link>Quality</a>
+        <a href="about.html#gallery" data-nav-link>Gallery</a>
+        <a href="#contact" data-nav-link>Contact</a>
+      </nav>
+
+      <div class="navbar__cta">
+        <a class="btn btn--accent btn--sm btn--nav-quote" href="quote.html">Get a Quote</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
   </header>
 
-<!-- Quick intro -->
-  <section class="section__container deals__container">
-    <div class="deals__card fadeUp">
-      <h2 class="section__header card">Leadership</h2>
-      <p></p>
-    </div>
-    <div class="deals__card">
-      <span><i class="ri-cash-line"></i></span>
-      <h4>Founder & Director</h4>
-      <p>Driving customer-first manufacturing and dependable supply chains.</p>
-    </div>
-    <div class="deals__card">
-      <span><i class="ri-calendar-schedule-line"></i></span>
-      <h4>Head - Operations</h4>
-      <p>
-        Leads shop-floors execution, quality and dispatch schedules.
-      </p>
-    </div>
-    <div class="deals__card">
-      <span><i class="ri-money-rupee-circle-line"></i></span>
-      <h4>Save money</h4>
-      <p>
-        Discover unbeatable prices and save big money on top-quality
-        products!
-      </p>
-    </div>
-  </section>
-
-
-<!-- About section -->
-  <section class="section__container about__container fadeUp" id="about">
-    <div class="about__header">
-      <div>
-        <h2 class="section__header">About us</h2>
-        <p class="section__description">
-          With a strong presence in the industry, we specialize in:
-          Vibrating Screen Mesh in Stainless Steel Grades SS 304/310
-          Spring Steel Wire Mesh (Grade-1) sourced from Usha Martin/Tata
-          Conveyor Idlers and Spares
-          Stainless Steel Anchors– all types
-          Precision Casting Items. .....
-        </p>
+  <!-- Mobile drawer -->
+  <div class="mobile-menu" data-mobile-menu id="mobile-menu">
+    <div class="mobile-menu__scrim" data-mobile-scrim></div>
+    <nav class="mobile-menu__panel" aria-label="Mobile">
+            <a href="about.html">About</a>
+            <a href="products/">Products</a>
+      <a href="#industries">Industries</a>
+      <a href="#manufacturing">Manufacturing</a>
+      <a href="#quality">Quality</a>
+      <a href="about.html#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <div class="mobile-menu__cta">
+        <a class="btn btn--accent" href="quote.html" style="border:0;text-align:center;">Get a Quote</a>
+        <a class="btn btn--outline-light" href="https://wa.me/917000683009" target="_blank" rel="noopener" style="text-align:center;">WhatsApp Us</a>
       </div>
-      <a href="about.html" class="about__btn">Learn More</a>
-    </div>
-    <div class="about__content">
-      <div class="about__image imageReveal">
-        <img src="assets/about.png" alt="about" />
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- ================= 1. HERO ================= -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true">
+        <!-- Real site imagery; compressed hero asset. Phase 5: responsive srcset. -->
+        <img src="assets/header.jpg" alt="" fetchpriority="high" />
       </div>
-      <div class="about__grid">
-        <div class="about__card">
-          <h3>1.</h3>
-          <h4>Who we are?</h4>
-          <p>
-            We produce vibrating screen mesh, conveyor idlers, SS anchors, and precision casting items built for strength and durability.
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container container--wide">
+        <div class="hero__inner">
+          <p class="hero__badge"><i aria-hidden="true"></i>Engineered for Industry</p>
+          <h1 id="hero-heading">
+            Precision Metal Solutions
+            <span class="accent-line">Built for Demanding Industries</span>
+          </h1>
+          <p class="hero__sub">
+            Balaji Metal Industries manufactures screening, conveying, refractory
+            anchoring and casting components that keep sponge iron, cement, power
+            and mining plants running — shift after shift.
           </p>
-        </div>
-        <div class="about__card">
-          <h3>2.</h3>
-          <h4>What do we make?</h4>
-          <p>
-            We give you a free course that guides you through the process.
-          </p>
-        </div>
-        <div class="about__card">
-          <h3>3.</h3>
-          <h4>Why choose us?</h4>
-          <p>We ensure quality, timely delivery, custom solutions, and competitive pricing with every order.</p>
-        </div>
-        <div class="about__card">
-          <h3>4.</h3>
-          <h4>Who do we serve?</h4>
-          <p>
-            We serve leading industries nationwide, trusted by major companies for reliable industrial solutions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Products section -->
-  <section class="section__container product__container" id="product">
-    <h2 class="section__header">Products</h2>
-    <p>Click on product for Details ! </p>
-    <div class="product__grid">
-
-      <a href="product1.html">
-        <div class="product__card">
-          <h4>Spring Steel Screen Cloths</h4>
-          <p></p>
-          <img src="assets/Wiremesh/p-1.1.jpg" alt="product" />
-        </div>
-      </a>
-
-      <a href="product2.html">
-        <div class="product__card">
-        <h4>Stainless Steel Wiremesh</h4>
-        <p></p>
-        <img src="assets/SS Wiremsh/p-2.5.jpg" alt="product" />
-      </div>
-      </a>
-
-      <a href="product3.html">
-        <div class="product__card">
-          <h4>Conveyor Idler & Frames and Pulleys</h4>
-          <p></p>
-          <img src="assets/Roller/p-3.1.jpg" alt="product" />
-        </div>
-      </a>
-      <a href="product4.html">
-        <div class="product__card">
-        <h4>Kiln Refactory Anchors</h4>
-        <p></p>
-        <img src="assets/Anchor/p-4.1.jpg" alt="product" />
-      </div>
-      </a>
-
-      <a href="product5.html">
-        <div class="product__card">
-        <h4>Casting & Mechanical Items</h4>
-        <p></p>
-        <img src="assets/casting/p-5.1.jpg" alt="product" />
-      </div>
-      </a>
-    </div>
-  </section>
-
-  <!-- CTA Bar -->
-  <section class="section__container">
-    <div class="cta__bar">
-      <div>
-        <h3 style="margin:0 0 .25rem;">Need a quick quote?</h3>
-        <p style="opacity:.9; margin:0;">Share your drawing/specs — we’ll respond within 24 hours.</p>
-      </div>
-      <a class="btn--light" href="contact.html#form">Get a Quote</a>
-      <a class="btn" href="https://wa.me/917000683009" target="_blank" rel="noopener">
-        <i class="ri-whatsapp-line"></i>&nbsp; WhatsApp
-      </a>
-    </div>
-  </section>
-
-
-
-<!-- Contact detail -->
-    <!-- <section class="section-container">
-      <div class="contact-details">
-        <h2 class="section__header">Contact Details</h2>
-        <div class="contact-grid">
-          <div class="contact-card">
-            <i class="ri-user-3-fill"></i>
-            <h4>Owner Name</h4>
-            <p>Mrs. Rekha Soni</p>
+          <div class="hero__meta">
+            <span><strong>Grade-1</strong> Usha Martin / Tata wire</span>
+            <span><strong>SS 304 / 310</strong> mesh &amp; anchors</span>
+            <span><strong>Pan-India</strong> dispatch</span>
           </div>
-          <div class="contact-card">
-            <i class="ri-mail-fill"></i>
-            <h4>Email</h4>
-            <p><a href="mailto:balajimetalindustries@gmail.com">balajimetalindustries@gmail.com</a></p>
-          </div>
-          <div class="contact-card">
-            <i class="ri-phone-fill"></i>
-            <h4>Office Contact</h4>
-            <p><a href="tel:+919876543210">+91 9598106365</a></p>
+          <div class="hero__ctas">
+            <a class="btn btn--accent" href="#products">Explore Products</a>
+            <a class="btn btn--outline-light" href="#contact">Get a Quote</a>
           </div>
         </div>
       </div>
-    </section> -->
 
-<!-- Footer -->
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <div class="footer__logo"><a href="index.html" class="logo">BMI.</a></div>
+      <span class="scroll-cue" aria-hidden="true">Scroll</span>
+    </section>
+
+    <!-- ================= 2. STATS ================= -->
+    <!-- Values render from js/data/company.js. Items flagged verified:false
+         are placeholders carried over from the old site — confirm with client. -->
+    <section class="stats" aria-label="Company highlights">
+      <div class="container container--wide stats__grid">
+        <div class="stat reveal">
+          <div class="stat__value"><span data-count="10" data-suffix="+">10+</span></div>
+          <div class="stat__label">Years of Experience</div>
+          <span class="stat__verify">To be verified with client</span>
+        </div>
+        <div class="stat reveal" style="--reveal-delay:80ms">
+          <div class="stat__value"><span data-count="7" data-suffix="">7</span></div>
+          <div class="stat__label">Product Categories</div>
+        </div>
+        <div class="stat reveal" style="--reveal-delay:160ms">
+          <div class="stat__value"><span data-count="6" data-suffix="+">6+</span></div>
+          <div class="stat__label">Industries Served</div>
+          <span class="stat__verify">To be verified with client</span>
+        </div>
+        <div class="stat reveal" style="--reveal-delay:240ms">
+          <div class="stat__value"><span data-count="500" data-suffix="+">500+</span></div>
+          <div class="stat__label">Installations Supplied</div>
+          <span class="stat__verify">To be verified with client</span>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- ================= 4. PRODUCT SHOWCASE ================= -->
+    <section class="section section--paper" id="products" aria-labelledby="products-heading">
+      <div class="container">
+        <div class="home-products__head">
+          <div class="section-head" style="margin-bottom:0;">
+            <p class="eyebrow reveal">Product Range</p>
+            <h2 class="h-section reveal" id="products-heading">Engineered Products for Industrial Performance</h2>
+            <p class="muted reveal">Five focused families. One standard: parts that survive harsh plant conditions.</p>
+          </div>
+          <a class="btn btn--outline-dark reveal" href="products/">All Products</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-card__media">
+              <img src="assets/Wiremesh/p-1.1.jpg" alt="Spring steel vibrating screen mesh panels" loading="lazy" />
+              <span class="product-card__tag">01 · Screening</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Spring Steel Screen Cloths</h3>
+              <p class="product-card__text">Grade-1 spring steel screens (Usha Martin / Tata wire) for high-wear vibrating applications.</p>
+              <a class="product-card__link" href="products/spring-steel-screen-cloths.html">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" style="--reveal-delay:90ms">
+            <div class="product-card__media">
+              <img src="assets/SS Wiremsh/p-2.5.jpg" alt="Stainless steel wire mesh rolls" loading="lazy" />
+              <span class="product-card__tag">02 · Screening</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Stainless Steel Wire Mesh</h3>
+              <p class="product-card__text">Precision-woven SS 304 / 310 mesh for screening, filtration and high-temperature zones.</p>
+              <a class="product-card__link" href="products/stainless-steel-wire-mesh.html">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" style="--reveal-delay:180ms">
+            <div class="product-card__media">
+              <img src="assets/Roller/p-3.3.jpg" alt="Conveyor idler rollers and frames" loading="lazy" />
+              <span class="product-card__tag">03 · Conveying</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Conveyor Idlers, Frames &amp; Pulleys</h3>
+              <p class="product-card__text">Idler rollers from ISI-certified pipes — premium bearings, dust-proof sealing.</p>
+              <a class="product-card__link" href="products/conveyor-idlers-frames-pulleys.html">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-card__media">
+              <img src="assets/Anchor/p-4.1.jpg" alt="Stainless steel kiln refractory anchors" loading="lazy" />
+              <span class="product-card__tag">04 · Refractory</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Kiln Refractory Anchors</h3>
+              <p class="product-card__text">V / Y / UV anchors and cleats in SS 304 / 310 for kiln, furnace and heater linings.</p>
+              <a class="product-card__link" href="products/kiln-refractory-anchors.html">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" style="--reveal-delay:90ms">
+            <div class="product-card__media">
+              <img src="assets/casting/p-5.1.jpg" alt="Precision cast industrial components" loading="lazy" onerror="this.src='assets/header.jpg'" />
+              <span class="product-card__tag">05 · Custom</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Casting &amp; Mechanical Components</h3>
+              <p class="product-card__text">SS 310 thermowells, burner pipes and tubes — plus custom castings to drawing.</p>
+              <a class="product-card__link" href="products/casting-mechanical-components.html">View Product</a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" style="--reveal-delay:180ms;background:var(--navy-900);border-color:var(--navy-900);">
+            <div class="product-card__body" style="justify-content:center;min-height:100%;">
+              <p class="eyebrow">Custom Requirement?</p>
+              <h3 class="product-card__title" style="color:#fff;">Built to Your Drawing &amp; Specification</h3>
+              <p class="product-card__text" style="color:var(--text-muted-dark);">Share aperture, grade, dimensions or drawings — we engineer to fit.</p>
+              <div><a class="btn btn--accent btn--sm" href="#contact">Request a Quote</a></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="cap-strip reveal">
+          <b>Core capabilities</b>
+          <span class="cap-chip">SS 304 / 310 mesh</span>
+          <span class="cap-chip">Grade-1 spring steel</span>
+          <span class="cap-chip">Conveyor spares</span>
+          <span class="cap-chip">Refractory anchors</span>
+          <span class="cap-chip">Custom castings</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. FEATURED PRODUCT INTERACTION ================= -->
+    <!-- Tabs render from js/data/products.js; static markup = product 01 (no-JS safe) -->
+    <section class="section featured" id="featured" aria-labelledby="featured-heading">
+      <div class="container featured__grid">
+        <div class="featured__media reveal">
+          <img data-featured-img src="assets/Wiremesh/p-1.2.jpg" alt="Close view of spring steel screen mesh weave" loading="lazy" />
+          <span class="featured__count" data-featured-count>01 / 05</span>
+        </div>
+        <div class="featured__body">
+          <p class="eyebrow reveal">Featured Product</p>
+          <h2 class="h-section reveal" id="featured-heading">One Range. Five Ways to Keep a Plant Running.</h2>
+          <div class="featured__tabs reveal" role="tablist" aria-label="Product categories" data-featured-tabs>
+            <button class="featured__tab" type="button" role="tab" aria-selected="true" data-featured-tab="0" id="ftab-0" aria-controls="fpanel">Screen Cloths</button>
+            <button class="featured__tab" type="button" role="tab" aria-selected="false" data-featured-tab="1" id="ftab-1" aria-controls="fpanel" tabindex="-1">SS Wire Mesh</button>
+            <button class="featured__tab" type="button" role="tab" aria-selected="false" data-featured-tab="2" id="ftab-2" aria-controls="fpanel" tabindex="-1">Idlers &amp; Pulleys</button>
+            <button class="featured__tab" type="button" role="tab" aria-selected="false" data-featured-tab="3" id="ftab-3" aria-controls="fpanel" tabindex="-1">Anchors</button>
+            <button class="featured__tab" type="button" role="tab" aria-selected="false" data-featured-tab="4" id="ftab-4" aria-controls="fpanel" tabindex="-1">Castings</button>
+          </div>
+          <div class="featured__panel reveal" role="tabpanel" id="fpanel" aria-labelledby="ftab-0" data-featured-panel tabindex="0">
+            <h3 class="featured__name" data-featured-name>Spring Steel Screen Cloths</h3>
+            <p class="featured__desc" data-featured-desc>Grade-1 spring steel screens (Usha Martin / Tata wire) for high-wear vibrating applications.</p>
+            <ul class="featured__points" data-featured-points role="list">
+              <li>Grade-1 spring steel wire from Usha Martin / Tata</li>
+              <li>Also available in SS 304 and SS 310</li>
+              <li>All sizes, with clamps or without, to suit installation</li>
+            </ul>
+            <div class="featured__apps" data-featured-apps>
+              <b class="app-label">Typical applications</b>
+              <span>Sponge Iron</span><span>Cement</span><span>Mining</span><span>Power</span>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <a class="btn btn--accent btn--sm" href="quote.html" data-featured-cta>Request a Quote</a>
+              <a class="btn btn--outline-light btn--sm" href="products/">All Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Phase 3–4 anchors: sections land here without breaking nav -->
+    <!-- ================= 7. INDUSTRIES ================= -->
+    <section class="section" id="industries" aria-labelledby="industries-heading">
+      <div class="container">
+        <div class="home-products__head">
+          <div class="section-head" style="margin-bottom:0;">
+            <p class="eyebrow reveal">Industries Served</p>
+            <h2 class="h-section reveal" id="industries-heading">Built for the Plants That Can't Stop</h2>
+            <p class="muted reveal">Where our screens, idlers, anchors and castings earn their keep every day.</p>
+          </div>
+        </div>
+
+        <div class="industries-grid">
+          <article class="industry-card reveal" tabindex="0">
+            <img src="assets/Wiremesh/p-1.4.jpg" alt="Heavy-duty screen mesh for mining screening" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 01</span>
+              <h3>Mining</h3>
+              <p>Wear-resistant screen cloths for vibrating screens.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:70ms" tabindex="0">
+            <img src="assets/Anchor/p-4.6.jpg" alt="Refractory anchors for cement kiln linings" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 02</span>
+              <h3>Cement</h3>
+              <p>Screens, idlers and anchors — raw mill to packing.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:140ms" tabindex="0">
+            <img src="assets/casting/p-5.4.jpg" alt="Cast components for steel and sponge iron plants" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 03</span>
+              <h3>Steel &amp; Sponge Iron</h3>
+              <p>High-temperature screens, anchors and cast spares.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:210ms" tabindex="0">
+            <img src="assets/SS Wiremsh/p-2.3.jpg" alt="Wire mesh for power plant coal and ash handling" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 04</span>
+              <h3>Power</h3>
+              <p>Dependable spares for coal handling and ash systems.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" tabindex="0">
+            <img src="assets/Wiremesh/p-1.3.jpg" alt="Screen mesh for construction aggregate screening" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 05</span>
+              <h3>Construction</h3>
+              <p>Screening media for aggregates and crushing units.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:70ms" tabindex="0">
+            <img src="assets/casting/p-5.5.jpg" alt="Custom cast and machined engineering components" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 06</span>
+              <h3>Heavy Engineering</h3>
+              <p>Custom castings built to customer drawings.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:140ms" tabindex="0">
+            <img src="assets/Roller/p-3.2.jpeg" alt="Conveyor idlers for bulk material handling" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 07</span>
+              <h3>Material Handling</h3>
+              <p>Idlers, frames and pulleys for belt conveyors.</p>
+            </div>
+          </article>
+          <article class="industry-card reveal" style="--reveal-delay:210ms" tabindex="0">
+            <img src="assets/Anchor/p-4.4.jpg" alt="Refractory anchors for foundry furnace linings" loading="lazy" />
+            <div class="industry-card__body">
+              <span class="industry-card__index">S / 08</span>
+              <h3>Foundry</h3>
+              <p>Anchors and mesh for furnace and heater linings.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. MANUFACTURING ================= -->
+    <section class="section mfg" id="manufacturing" aria-labelledby="mfg-heading">
+      <div class="container mfg__grid">
+        <div class="mfg__collage reveal">
+          <img class="img-reveal" src="assets/casting/p-5.3.jpg" alt="Cast component at Balaji Metal Industries works" loading="lazy" />
+          <img src="assets/Anchor/p-4.5.jpg" alt="Finished stainless refractory anchors ready for dispatch" loading="lazy" />
+        </div>
+        <div class="mfg__body">
+          <p class="eyebrow reveal">Manufacturing &amp; Facilities</p>
+          <h2 class="h-section reveal" id="mfg-heading">From Raw Material to Dispatch, Under One Roof</h2>
+          <p class="reveal">Woven and welded mesh, rolling, machining and assembly at our Tifra works — followed by inspection, safe packing and pan-India dispatch.</p>
+          <ol class="timeline reveal" style="list-style:none;padding:0;">
+            <li class="timeline__step" data-step="1">
+              <h3>Requirement &amp; Drawings</h3>
+              <p>We review specs, media, throughput and environment.</p>
+            </li>
+            <li class="timeline__step" data-step="2">
+              <h3>Material Planning</h3>
+              <p>Grade selection, sourcing and traceability plan.</p>
+            </li>
+            <li class="timeline__step" data-step="3">
+              <h3>Fabrication &amp; Assembly</h3>
+              <p>Woven and welded mesh, rolling, machining, welding.</p>
+            </li>
+            <li class="timeline__step" data-step="4">
+              <h3>QA &amp; Testing</h3>
+              <p>Checks as per control plan, with corrective loop if required.</p>
+            </li>
+            <li class="timeline__step" data-step="5">
+              <h3>Dispatch &amp; Support</h3>
+              <p>On-time delivery with installation guidance.</p>
+            </li>
+          </ol>
+          <div class="reveal" style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a class="btn btn--accent btn--sm" href="quote.html">Discuss Your Requirement</a>
+            <a class="btn btn--outline-light btn--sm" href="about.html#gallery">See the Works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. QUALITY ================= -->
+    <!-- No invented certifications: only verified practices are listed. -->
+    <section class="section" id="quality" aria-labelledby="quality-heading">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:0;">
+          <p class="eyebrow reveal">Quality</p>
+          <h2 class="h-section reveal" id="quality-heading">Checked at Every Stage, Recorded on Request</h2>
+          <p class="muted reveal">Material inspection · dimensional accuracy · weld integrity · final inspection before dispatch.</p>
+        </div>
+        <div class="quality-grid">
+          <div class="quality-card reveal">
+            <span class="quality-card__index">Q / 01</span>
+            <h3>Material Traceability</h3>
+            <p>Heat-number traceability for wires, plates and castings — Grade-1 and SS grades from known sources.</p>
+          </div>
+          <div class="quality-card reveal" style="--reveal-delay:90ms">
+            <span class="quality-card__index">Q / 02</span>
+            <h3>Standards-Aligned Build</h3>
+            <p>Manufacturing aligned to IS / ASTM requirements where applicable, confirmed project-wise.</p>
+          </div>
+          <div class="quality-card reveal" style="--reveal-delay:180ms">
+            <span class="quality-card__index">Q / 03</span>
+            <h3>Inspection Records</h3>
+            <p>Dimensional, hardness and weld inspections with records shared on request — nothing ships unchecked.</p>
+          </div>
+        </div>
+        <div class="quality-cta reveal">
+          <p><strong>Quality &amp; certifications</strong>Detailed QC documentation and available certifications are shared with every serious enquiry.</p>
+          <a class="btn btn--accent btn--sm" href="contact.html">View Quality &amp; Certifications</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 10. APPLICATIONS ================= -->
+    <!-- Typical application patterns (structural) — not client projects. -->
+    <section class="section section--paper" id="applications" aria-labelledby="apps-heading" style="padding-top:0;">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:0;">
+          <p class="eyebrow reveal">Applications</p>
+          <h2 class="h-section reveal" id="apps-heading">Where Our Products Work Hardest</h2>
+          <p class="muted reveal">Typical application patterns across the plants we serve.</p>
+        </div>
+        <div class="apps-strip">
+          <article class="app-card reveal">
+            <img src="assets/Wiremesh/p-1.4.jpg" alt="Screen cloths installed for kiln feed screening" loading="lazy" />
+            <div class="app-card__body">
+              <span class="app-card__kicker">Sponge Iron</span>
+              <h3>Kiln Feed Screening</h3>
+              <p>Spring steel screens plus refractory anchors standing up to kiln-zone abuse.</p>
+            </div>
+          </article>
+          <article class="app-card reveal" style="--reveal-delay:90ms">
+            <img src="assets/Roller/p-3.3.jpg" alt="Conveyor idlers running in a cement plant" loading="lazy" />
+            <div class="app-card__body">
+              <span class="app-card__kicker">Cement &amp; Mining</span>
+              <h3>Dust-Proof Conveying</h3>
+              <p>Sealed idlers, frames and pulleys keeping bulk lines moving in dusty environments.</p>
+            </div>
+          </article>
+          <article class="app-card reveal" style="--reveal-delay:180ms">
+            <img src="assets/SS Wiremsh/p-2.3.jpg" alt="Stainless mesh for high-temperature filtration" loading="lazy" />
+            <div class="app-card__body">
+              <span class="app-card__kicker">Power &amp; Process</span>
+              <h3>Filtration &amp; Linings</h3>
+              <p>SS mesh and anchors for coal handling, ash systems and furnace linings.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+
+      </main>
+
+  <!-- ================= 13. FOOTER ================= -->
+  <footer class="footer" aria-label="Footer">
+    <div class="container container--wide">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="index.html" aria-label="Balaji Metal Industries — home">
+            <span class="brand__mark" aria-hidden="true"><img src="assets/bmi-logo-square.png" alt="" width="40" height="40" onerror="this.outerHTML='B'" /></span>
+            <span class="brand__text">
+              <span class="brand__name">Balaji Metal Industries</span>
+              <span class="brand__sub">Engineered for Industry</span>
+            </span>
+          </a>
           <p>Reliable industrial components, built to perform under pressure.</p>
-          <ul class="footer__socials">
-            <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
-            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
-            <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
-            <li><a href="#"><i class="ri-pinterest-fill"></i></a></li>
-          </ul>
         </div>
-        <div class="footer__col">
-          <h4>Quick Links</h4>
-          <ul class="footer__links">
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="index.html#product">Products</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://www.indiamart.com/balajimetalindustriesbilaspur/profile.html?srsltid=AfmBOooD0EP6Inv6bq7QMRtQfJ1kJ6AT9Rx5hDs3YaGpO_iyS-cby6HP" target="_blank">Indiamart</a></li>
-          </ul>
+        <nav aria-label="Quick links">
+          <h3>Quick Links</h3>
+          <div class="footer__links">
+            <a href="about.html">About</a>
+      <a href="products/">Products</a>
+            <a href="#industries">Industries</a>
+            <a href="#manufacturing">Manufacturing</a>
+            <a href="#quality">Quality</a>
+            <a href="about.html#gallery">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+        <nav aria-label="Products">
+          <h3>Products</h3>
+          <div class="footer__links">
+            <a href="products/spring-steel-screen-cloths.html">Spring Steel Screen Cloths</a>
+            <a href="products/stainless-steel-wire-mesh.html">Stainless Steel Wire Mesh</a>
+            <a href="products/conveyor-idlers-frames-pulleys.html">Conveyor Idlers &amp; Frames</a>
+            <a href="products/kiln-refractory-anchors.html">Kiln Refractory Anchors</a>
+            <a href="products/casting-mechanical-components.html">Casting Components</a>
+          </div>
+        </nav>
+        <div>
+          <h3>Contact</h3>
+          <div class="footer__contact">
+            <span>26-A Industrial Area, Tifra,<br />Bilaspur, Chhattisgarh — 495223</span>
+            <a href="tel:+9170009683009">+91 70009 68309</a>
+            <a href="tel:+919827930382">+91 98279 30382</a>
+            <a href="mailto:balajimetal09@gmail.com">balajimetal09@gmail.com</a>
+            <span>GSTIN: 22DVLPS6463J1Z</span>
+          </div>
         </div>
       </div>
-      <div class="footer__bar">Copyright © 2023 Balaji Metal Industries. All rights reserved.</div>
-    </footer>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Balaji Metal Industries. All rights reserved.</span>
+        <div class="footer__legal">
+          <a href="contact.html">Privacy Policy</a>
+          <a href="contact.html">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+  <!-- WhatsApp quick access -->
+  <a class="wa-float" href="https://wa.me/917000683009" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 2 6.5L4 29l7.7-2c1.8 1 3.9 1.5 4.3 1.5 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22.2c-1.4 0-2.8-.4-4-1.1l-.3-.2-4.6 1.2 1.2-4.4-.2-.3c-.8-1.2-1.2-2.6-1.2-4.1 0-4.9 4-8.9 8.9-8.9 4.9 0 8.9 4 8.9 8.9s-3.8 8.9-8.7 8.9zm4.9-6.7c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.4-1.8-.1-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5L14.7 12c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.2-.7.6-.2.5-.9 2.2-.9 2.2s0 .2.1.4c.6 1.4 2.3 3 4.2 3.7 1.5.6 2.1.5 2.8.4.4-.1 1.6-.6 1.8-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.1-.6-.2z"/></svg>
+  </a>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="main.js"></script>
-
-  
+  <script src="js/data/company.js" defer></script>
+  <script src="js/data/products.js" defer></script>
+  <script src="js/data/industries.js" defer></script>
+  <script src="js/main.js" defer></script>
 </body>
-
 </html>

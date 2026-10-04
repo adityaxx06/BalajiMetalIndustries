@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.balajimetal.com/sitemap.xml
