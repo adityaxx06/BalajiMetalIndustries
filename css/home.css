@@ -231,62 +231,6 @@
   }
 }
 
-/* ---------- Customer marquee ---------- */
-.marquee {
-  background: #fff;
-  border-bottom: 1px solid var(--line-light);
-  overflow: hidden;
-  padding: 16px 0;
-}
-
-.marquee__track {
-  display: flex;
-  width: max-content;
-  animation: marquee-scroll 36s linear infinite;
-}
-
-.marquee:hover .marquee__track {
-  animation-play-state: paused;
-}
-
-.marquee__track span {
-  position: relative;
-  font-family: var(--font-display);
-  font-size: 12.5px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--steel-500);
-  white-space: nowrap;
-  padding: 0 28px;
-}
-
-.marquee__track span::after {
-  content: "";
-  position: absolute;
-  right: -3px;
-  top: 50%;
-  translate: 0 -50%;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
-@keyframes marquee-scroll {
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .marquee__track {
-    animation: none;
-    flex-wrap: wrap;
-    width: auto;
-  }
-}
-
 /* ---------- STATS strip ---------- */
 .stats {
   background: var(--navy-900);
