@@ -950,6 +950,22 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Keep the wide thumbnail strip from forcing its grid column open */
+.split__media--doc,
+.split__media--doc .doc-viewer,
+.split__media--doc .doc-viewer__thumbs {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.split__media--doc .doc-viewer {
+  width: 100%;
+  max-width: 520px;
+  margin-inline: auto;
 }
 
 .doc-viewer__bar {
@@ -986,7 +1002,7 @@
     auto;
   border: 1px solid var(--navy-700);
   box-shadow: var(--shadow-2);
-  height: clamp(430px, 38vw, 580px);
+  aspect-ratio: 16 / 10;
 }
 
 .doc-viewer__frame > img {
@@ -1036,9 +1052,11 @@
 }
 
 .doc-viewer__thumbs {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
 }
 
 .doc-viewer__thumbs button {
@@ -1047,7 +1065,8 @@
   overflow: hidden;
   padding: 0;
   background: var(--navy-800);
-  aspect-ratio: 210 / 297;
+  aspect-ratio: 16 / 10;
+  flex: 0 0 80px;
   transition:
     border-color var(--dur-2) var(--ease),
     transform var(--dur-2) var(--ease);
