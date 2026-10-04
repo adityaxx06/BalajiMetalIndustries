@@ -142,6 +142,30 @@
   justify-content: space-between;
   gap: 20px;
   height: 76px;
+  transition: height var(--dur-2) var(--ease);
+}
+
+.navbar.is-solid .navbar__inner {
+  height: 64px;
+}
+
+.navbar.is-solid .brand__mark {
+  width: 48px;
+  height: 48px;
+}
+
+/* Mid-size screens: tighten nav density before the drawer takes over */
+@media (max-width: 1240px) {
+  .nav-links a {
+    padding: 10px 8px;
+    font-size: 11.5px;
+  }
+  .brand__name {
+    font-size: 15px;
+  }
+  .navbar__inner {
+    gap: 12px;
+  }
 }
 
 .brand {
@@ -166,6 +190,9 @@
   border-radius: var(--radius-sm);
   overflow: hidden;
   padding: 2px;
+  transition:
+    width var(--dur-2) var(--ease),
+    height var(--dur-2) var(--ease);
 }
 
 .brand__mark img {
