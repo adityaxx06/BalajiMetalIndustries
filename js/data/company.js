@@ -45,27 +45,5 @@ window.BMI.company = {
     "Mining",
     "Steel",
     "Material Handling"
-  ],
-
-  /* Major customers, verified from the company intro PDF.
-     The company also serves many more unlisted clients. */
-  customers: [
-    "Nova Iron & Steel",
-    "Jayaswal Neco Industries",
-    "SKS Ispat & Power",
-    "Rashi Steel & Power",
-    "Pacific Iron Works",
-    "Amalgam Steel",
-    "4Mann Group",
-    "Nilkanth Steel",
-    "Mangal Sponge & Steel",
-    "Rocktech Engineering",
-    "German TMX",
-    "Starex Minerals",
-    "Hero Cycles",
-    "KSK",
-    "SAPL",
-    "Sajjan",
-    "Mahavir Coal Washeries"
   ]
 };

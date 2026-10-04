@@ -365,18 +365,17 @@
     var thumbs = Array.prototype.slice.call(
       root.querySelectorAll("[data-doc-thumb]")
     );
-        var pages = [
-      { src: "assets/profile-p1.jpg", label: "Company profile, page 1 of 11: cover" },
-      { src: "assets/profile-p2.jpg", label: "Company profile, page 2 of 11: welcome to Balaji Metal Industries" },
-      { src: "assets/profile-p3.jpg", label: "Company profile, page 3 of 11: our products overview" },
-      { src: "assets/profile-p4.jpg", label: "Company profile, page 4 of 11: meet our customers" },
-      { src: "assets/profile-p5.jpg", label: "Company profile, page 5 of 11: spring steel screen cloths" },
-      { src: "assets/profile-p6.jpg", label: "Company profile, page 6 of 11: stainless steel wiremesh" },
-      { src: "assets/profile-p7.jpg", label: "Company profile, page 7 of 11: conveyor idler, frame and pulleys" },
-      { src: "assets/profile-p8.jpg", label: "Company profile, page 8 of 11: kiln refractory anchors" },
-      { src: "assets/profile-p9.jpg", label: "Company profile, page 9 of 11: casting and mechanical items" },
-      { src: "assets/profile-p10.jpg", label: "Company profile, page 10 of 11: get in touch" },
-      { src: "assets/profile-p11.jpg", label: "Company profile, page 11 of 11: thank you" },
+            var pages = [
+      { src: "assets/profile-p1.jpg", label: "Company profile, page 1 of 10: cover" },
+      { src: "assets/profile-p2.jpg", label: "Company profile, page 2 of 10: welcome to Balaji Metal Industries" },
+      { src: "assets/profile-p3.jpg", label: "Company profile, page 3 of 10: our products overview" },
+      { src: "assets/profile-p4.jpg", label: "Company profile, page 4 of 10: spring steel screen cloths" },
+      { src: "assets/profile-p5.jpg", label: "Company profile, page 5 of 10: stainless steel wiremesh" },
+      { src: "assets/profile-p6.jpg", label: "Company profile, page 6 of 10: conveyor idler, frame and pulleys" },
+      { src: "assets/profile-p7.jpg", label: "Company profile, page 7 of 10: kiln refractory anchors" },
+      { src: "assets/profile-p8.jpg", label: "Company profile, page 8 of 10: casting and mechanical items" },
+      { src: "assets/profile-p9.jpg", label: "Company profile, page 9 of 10: get in touch" },
+      { src: "assets/profile-p10.jpg", label: "Company profile, page 10 of 10: thank you" },
     ];
     var current = 0;
 
